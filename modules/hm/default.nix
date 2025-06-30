@@ -3,6 +3,7 @@
 {
   imports = [
     # ./example.nix - add your modules here
+     ./packages.nix # my custom packages
   ];
 
   # home-manager options go here

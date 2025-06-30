@@ -1,12 +1,17 @@
-{ ... }:
-
+{ config, lib, pkgs, ... }:
 {
   imports = [
     # ./example.nix - add your modules here
   ];
 
-  environment.systemPackages = [
-    # pkgs.vscode - hydenix's vscode version
-    # pkgs.userPkgs.vscode - your personal nixpkgs version
+  environment.systemPackages = with pkgs; [
+    # Using 'with pkgs' to avoid repeating 'pkgs.'
+    git
+    vim
+    htop
+    fzf
+    btop
+    grep
+    fish
   ];
 }
