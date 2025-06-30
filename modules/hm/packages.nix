@@ -6,5 +6,6 @@
     pkgs.obsidian
     pkgs.gh
     pkgs.protonmail-desktop
+    pkgs.bitwarden-desktop
   ];
 }
