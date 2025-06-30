@@ -11,7 +11,6 @@
     htop
     fzf
     btop
-    grep
     fish
   ];
 }

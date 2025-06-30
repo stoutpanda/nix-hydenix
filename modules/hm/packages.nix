@@ -1,14 +1,10 @@
 { config, lib, pkgs, ... }:
-let
-  # Create an alias for clarity
-  myPkgs = pkgs.userPkgs;
-in
 {
-  home.packages = with myPkgs; [
-    thunderbird
-    chromium
-    obsidian
-    gh
-    protonmail-desktop
+  home.packages = [
+    pkgs.thunderbird
+    pkgs.chromium
+    pkgs.obsidian
+    pkgs.gh
+    pkgs.protonmail-desktop
   ];
 }
