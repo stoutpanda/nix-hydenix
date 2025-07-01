@@ -12,5 +12,6 @@
     fzf
     btop
     fish
+    ghostty
   ];
 }

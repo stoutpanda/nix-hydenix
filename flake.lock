@@ -47,11 +47,11 @@
         "nixos-hardware": "nixos-hardware"
       },
       "locked": {
-        "lastModified": 1750986827,
-        "narHash": "sha256-HVHH4TAIyA+g9DAM07hWgdYxoZFVcFxiM4m2vQ736Ic=",
+        "lastModified": 1751311560,
+        "narHash": "sha256-+Q4Gh9pqjxbJ4irlc0Wm2q3qq5CpnETnDzGtLkqA2Tg=",
         "owner": "richen604",
         "repo": "hydenix",
-        "rev": "1f78f7e5d8dd36214973492f82707f01ba874842",
+        "rev": "f9fd2389840c071e10f17fc90cf978a5263f4ce7",
         "type": "github"
       },
       "original": {

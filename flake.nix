@@ -4,7 +4,6 @@
   inputs = {
     # User's nixpkgs - for user packages
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-
     # Hydenix and its nixpkgs - kept separate to avoid conflicts
     hydenix = {
       # Available inputs:
@@ -13,6 +12,7 @@
       # Commit: github:richen604/hydenix/<commit-hash>
       # Version: github:richen604/hydenix/v1.0.0
       url = "github:richen604/hydenix";
+      #url = "github:stoutpanda/hydenix/fix/fish-shell-config";
     };
 
     # Nix-index-database - for comma and command-not-found
